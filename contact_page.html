@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123b35">
+<title>اطلاعات تماس</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; padding: 28px 16px;
+    display: grid; place-items: center;
+    background: linear-gradient(145deg, #eaf4ef, #f7f3e9);
+    font-family: Tahoma, Arial, sans-serif; color: #18332e;
+  }
+  .card {
+    width: min(100%, 440px); background: #fff;
+    border-radius: 24px; padding: 32px 24px;
+    box-shadow: 0 16px 48px rgba(20, 55, 46, .13);
+    text-align: center; border: 1px solid #e3eee8;
+  }
+  .icon {
+    width: 68px; height: 68px; margin: 0 auto 18px;
+    display: grid; place-items: center; border-radius: 22px;
+    background: #e7f2ec; font-size: 32px;
+  }
+  h1 { margin: 0 0 14px; font-size: 23px; color: #123b35; }
+  .intro { font-size: 16px; line-height: 2; margin: 0 0 24px; color: #52645e; }
+  .contact {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; padding: 17px 16px; margin-top: 12px;
+    border: 1px solid #e3eee8; border-radius: 16px; background: #fbfdfb;
+    text-align: right;
+  }
+  .label { display: block; color: #71827b; font-size: 13px; margin-bottom: 7px; }
+  .number { direction: ltr; display: inline-block; font-size: 17px; font-weight: bold; color: #123b35; text-decoration: none; }
+  .call {
+    flex: 0 0 auto; padding: 9px 13px; border-radius: 12px;
+    background: #1b6555; color: white; text-decoration: none; font-size: 13px;
+  }
+  footer { margin-top: 25px; color: #82918b; font-size: 13px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon" aria-hidden="true">☎️</div>
+    <h1>راه‌های ارتباطی</h1>
+    <p class="intro">سلام، لطفاً در صورت نیاز با یکی از شماره تماس‌های زیر ارتباط برقرار کنید.</p>
+
+    <section class="contact">
+      <div>
+        <span class="label">شماره تماس پدر</span>
+        <a class="number" href="tel:09121789448">0912 178 9448</a>
+      </div>
+      <a class="call" href="tel:09121789448">تماس</a>
+    </section>
+
+    <section class="contact">
+      <div>
+        <span class="label">شماره تماس مادر</span>
+        <a class="number" href="tel:+989163510298">+98 916 351 0298</a>
+      </div>
+      <a class="call" href="tel:+989163510298">تماس</a>
+    </section>
+
+    <footer>با تشکر از همراهی شما 🌿</footer>
+  </main>
+</body>
+</html>
